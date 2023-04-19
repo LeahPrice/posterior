@@ -1,3 +1,12 @@
+# posterior 1.4.1.9000
+
+### Enhancements
+
+* Added support for indexing draws in `rvar`s via `[.rvar` and `[<-.rvar`. A 
+  single, scalar logical `rvar` can now be used to slice an `rvar` by its
+  draws; e.g. using `x[i]` or `x[i] <- y` where `i` is an `rvar` (#282).
+
+
 # posterior 1.4.1
 
 ### Bug Fixes
